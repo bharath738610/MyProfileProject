@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assests/pic2.jpg" type="image/icon type">
+    <title>Bharath Chintakayala Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <img src="./assests/pic2.jpg" alt="Bharath Chintakayala" class="profile-pic">
+                <div class="header-text">
+                    <h1>Bharath Chintakayala</h1>
+                    <p>t.bharath2901@gmail.com</p>
+                    <p>+91 7386104491</p>
+                </div>
+            </div>
+            <nav class="header-right">
+                <ul>
+                    <li><a href="#about" class="active">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recommendations">Recommendations</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Hi, I'm Bharath Chintakayala! 👋</h2>
+        <p>Hello! I am an undergraduate student who has recently embarked on the exciting journey of web development. With a keen interest in creating interactive and user-friendly websites, I am eager to apply my growing skills in HTML5, CSS3, and JavaScript to real-world projects. Currently, I am also exploring cloud application development, security, encryption, and monitoring practices. I am ready to take on freelance opportunities to gain hands-on experience and contribute to meaningful projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <a href ="https://courses.edx.org/certificates/d426301057014165aa435dcbf1a2a0bd?_gl=1*h95b6v*_gcl_au*MTgzMjExNzI4Ny4xNzE4NzI1MTAy*_ga*ODE2Nzk4NzgyLjE3MTA4NTc4NTk.*_ga_D3KS4KMDT0*MTcyMDY2ODk0Ni44My4xLjE3MjA2NjkwNTguMTUuMC4w"><img src="D:\My Things\finalProjectMyProfile\assests\HTML_logo.png" alt="HTML Logo" class="skill-logo" width="50" height="60"></a>
+                <p style="">HTML</p>
+                <p>Fresher</p>
+            </div>
+            <div class="skill-item">
+                <img src="./assests/javaScript_logo.png" alt="JavaScript Logo" class="skill-logo" width="60" height="70">
+                <p>JavaScript</p>
+                <p>Fresher</p>
+            </div>
+            <div class="skill-item">
+                <img src="./assests/java_logo.png" alt="Java Logo" class="skill-logo" width="90" height="80">
+                <p>Java</p>
+                <p>Learning</p>
+            </div>
+            <div class="skill-item">
+                <img src="./assests/react_logo.png" alt="React Logo" class="skill-logo" width="65" height="75">
+                <p>React</p>
+                <p>Fresher</p>
+            </div>
+            <div class="skill-item">
+                <img src="./assests/css_logo.png" alt="CSS Logo" class="skill-logo" width="65" height="75">
+                <p>CSS</p>
+                <p>Fresher</p>
+            </div>
+            <div class="skill-item">
+                <a href = "https://media.licdn.com/dms/image/D5622AQFVyvesS-qZwQ/feedshare-shrink_2048_1536/0/1689244437983?e=1723680000&v=beta&t=X_MtKx7sHPoQwfLxhfTO9BUAOoKEAOj3d82b7AGawNQ"><img src="./assests/cppLogo.png" alt="C++ Logo" class="skill-logo" width="80" height="80"></a>
+                <p>C++</p>
+                <p>Programming skills</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>My Profile</h3>
+            <p>Created a stylish web page using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-item">
+            <h3>Chatbot</h3>
+            <p>Developed a secure website integrated with a chatbot for an automobile client using HTML, CSS, JavaScript, and IBM Watson Assistant.</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div id="recommendation-list">
+            <div class="recommendation-item">
+                <p>"Bharath is a quick learner who thrives on challenges and works well in teams." - Bharath Chintakayala</p>
+            </div>
+            <div class="recommendation-item">
+                <p>"Quick learner with a collaborative spirit. Drives innovation and executes flawlessly with a keen eye for detail." - Rehaman</p>
+            </div>
+            <div class="recommendation-item">
+                <p>"Reliable and professional team member with a consistent record of delivering projects on time." - Nayeem</p>
+            </div>
+        </div>
+        <h3>Leave a Recommendation</h3>
+        <form id="recommendation-form">
+            <label for="name">Name (Optional):</label>
+            <input type="text" id="name" name="name">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="confirmation-popup" class="popup">
+            <p>Thank you for submitting a recommendation!</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bharath Chintakayala Portfolio</p>
+        <a href="#" id="back-to-top">
+            <img src="D:\My Things\finalProjectMyProfile\assests\Home_logo.png" alt="Home">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
