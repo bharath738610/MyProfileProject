@@ -116,11 +116,11 @@ section {
     border-radius: 5px;
 }
 
-#recommendations {
+#comment {
     background: #c2c2c2;
 }
 
-.recommendation-item {
+.comment-item {
     background: #fff;
     border: 1px solid #ddd;
     padding: 10px;
@@ -128,18 +128,18 @@ section {
     border-radius: 5px;
 }
 
-#recommendation-form {
+#comment-form {
     display: flex;
     flex-direction: column;
 }
 
-#recommendation-form label,
-#recommendation-form input,
-#recommendation-form textarea {
+#comment-form label,
+#comment-form input,
+#comment-form textarea {
     margin-bottom: 10px;
 }
 
-#recommendation-form button {
+#comment-form button {
     align-self: flex-start;
     padding: 10px 20px;
     background: #6a1b9a;
@@ -149,7 +149,7 @@ section {
     border-radius: 5px;
 }
 
-#recommendation-form button:hover {
+#comment-form button:hover {
     background: #4a148c;
 }
 
