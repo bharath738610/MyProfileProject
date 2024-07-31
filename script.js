@@ -11,21 +11,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Handle recommendation form submission
-    document.getElementById('recommendation-form').addEventListener('submit', function(e) {
+    // Handle comment form submission
+    document.getElementById('comment-form').addEventListener('submit', function(e) {
         e.preventDefault();
 
         // Get form values
         const name = document.getElementById('name').value || 'Anonymous';
         const message = document.getElementById('message').value;
 
-        // Create a new recommendation item
-        const recommendationItem = document.createElement('div');
-        recommendationItem.classList.add('recommendation-item');
-        recommendationItem.innerHTML = `<p>"${message}" - ${name}</p>`;
+        // Create a new comment item
+        const commentItem = document.createElement('div');
+        commentItem.classList.add('recommendation-item');
+        commentItem.innerHTML = `<p>"${message}" - ${name}</p>`;
 
-        // Add the new recommendation item to the list
-        document.getElementById('recommendation-list').appendChild(recommendationItem);
+        // Add the new comment item to the list
+        document.getElementById('comment-form').appendChild(commentItem);
 
         // Show confirmation popup
         const popup = document.getElementById('confirmation-popup');
